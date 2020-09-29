@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=lab_1.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\lab_1 -TC:\CooCox\CoIDE\configuration\ProgramData\lab_1/arm-gcc-link.ld -g">
+      <target file="lab_1.elf" lastModified="174d895fd7c">
+         <source file="..\obj\system_stm32f10x.o" lastModified="174d87ef7da"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="174d87ef848"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="174d87ef8a2"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="174d87ef938"/>
+         <source file="..\obj\main.o" lastModified="174d87ef99d"/>
+         <source file="..\obj\printf.o" lastModified="174d87efa47"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="174d87efafb"/>
+         <source file="..\obj\GPIO_Blink.o" lastModified="174d895fb24"/>
+         <source file="..\obj\syscalls.o" lastModified="174d87efbeb"/>
+      </target>
+   </processor>
+</history>

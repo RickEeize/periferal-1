@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.5.2 mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\lab_1\cmsis -I..\..\..\workspace\lab_1\stm_lib -I..\..\..\workspace\lab_1\cmsis_boot -I..\..\..\workspace\lab_1\stm_lib\inc -I..\..\..\workspace -I..\..\..\workspace\lab_1">
+      <target file="stm32f10x_pwr.o" lastModified="174d87ef848">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="174d854f9f6"/>
+      </target>
+      <target file="syscalls.o" lastModified="174d87efbeb">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="174d853f2fa"/>
+      </target>
+      <target file="printf.o" lastModified="174d87efa47">
+         <source file="..\..\..\stdio\printf.c" lastModified="174d85452b6"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="174d87ef7da">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="174d8541361"/>
+      </target>
+      <target file="GPIO_Blink.o" lastModified="174d895fb24">
+         <source file="..\..\..\example\GPIO_Blink.c" lastModified="174d895f764"/>
+      </target>
+      <target file="main.o" lastModified="174d87ef99d">
+         <source file="..\..\..\main.c" lastModified="174d85ad7db"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="174d87ef938">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="174d854e192"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="174d87efafb">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="174d8541329"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="174d87ef8a2">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="174d854133f"/>
+      </target>
+   </processor>
+</history>
